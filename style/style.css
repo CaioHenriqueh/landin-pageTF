@@ -14,13 +14,20 @@ header{
     display: flex;
     font-family: 'Mulish', sans-serif;
     justify-content: space-between;
-  
-    box-shadow: 0 0 1rem black;
+    box-shadow: 0 0 1rem rgb(70, 70, 70);
+    background-color: #4d0352;
+    padding-top: 5px;
 }
 ul{
     display: flex;
+    margin: 7px;
+    margin-right: 5vw;
 }
-li{
+.ls{
     list-style-type: none;
-    color: white;
+    color:white;
+    cursor: pointer;
+    margin: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 1px;
 }
