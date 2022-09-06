@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2? family= Baloo+Tamma+2:wght@700;800 & family= Josefin+Slab:wght@100;200;300;500 & family= Mulish:ital,wght@0,200;0,300;1,300 & family= Noto+Sans:wght@200 & family= Roboto:wght@300 & display=swap');
+
+
+
 body{
     background: #f0f0f0;
+}
+
+li{
+    display: flex;
+    font-family: 'Mulish', sans-serif;
 }
