@@ -18,11 +18,19 @@ header{
     background-color: #4d0352;
     padding-top: 5px;
 }
-ul{
+#uls{
     display: flex;
     margin: 7px;
     margin-right: 5vw;
 }
+#uls li:nth-child(1){
+    width: 100px;
+}
+#uls li:nth-child(1):hover~.animation{
+    width: 100px;
+    left:0;
+}
+
 .ls{
     list-style-type: none;
     color:white;
@@ -30,10 +38,23 @@ ul{
     margin: 5px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     letter-spacing: 1px;
+    padding: 1px;
 }
 .ls:hover{
-    color: orange;
+    
+    background: green;
+    color: white;
 }
+.ls .animation{
+    height: 100%;
+    top: 0;
+    position: absolute;
+    z-index: 0;
+    background: #1abc9c;
+    border-radius: 8px;
+    transition: all .5s ease 0s;
+}
+
 
 #logo-empresa{
     color: white;
@@ -42,3 +63,10 @@ ul{
 #empresa{
     display: block;
 }
+
+#img-logo{
+    border-radius: 30px;
+    padding: 5px;
+}
+
+
