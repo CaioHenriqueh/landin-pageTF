@@ -31,3 +31,15 @@ ul{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     letter-spacing: 1px;
 }
+.ls:hover{
+    color: orange;
+}
+
+#logo-empresa{
+    color: white;
+    margin-left: 10px;
+}
+#empresa{
+    display: block;
+
+}
