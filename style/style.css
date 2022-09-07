@@ -50,3 +50,18 @@ body{
     color: var(--color-white);
 }
 
+.logo_header h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 23px;
+    transition: 1s;
+}
+#spn{
+    display: block;
+    transition: 1s;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.logo_header:hover{
+    color: #b040ff;
+}
+
