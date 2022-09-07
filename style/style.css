@@ -48,8 +48,10 @@ body{
 }
 .navegacao-header a:hover{
     color: var(--color-white);
+    background: var(--color-dark3);
+    padding: 10px;
+    border-radius: 10px;
 }
-
 .logo_header h3{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-left: 23px;
