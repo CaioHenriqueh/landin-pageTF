@@ -66,8 +66,3 @@ body{
 .logo_header:hover{
     color: #b040ff;
 }
-#inicio{
-    background-image: url('../img/img-fundo.jpg');
-    width: 100%;
-    height: 100%;
-}
