@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2? family= Baloo+Tamma+2:wght@700;800 & family= Josefin+Slab:wght@100;200;300;500 & family= Mulish:ital,wght@0,200;0,300;1,300 & family= Noto+Sans:wght@200 & family= Roboto:wght@300 & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@700;800&family=Josefin+Slab:wght@100;200;300;500&family=Mulish:ital,wght@0,200;0,300;1,300&family=Noto+Sans:wght@200&family=Roboto:wght@300&display=swap');
 
 :root{
     --color-white: #fff;
@@ -33,6 +34,8 @@ body{
     justify-content: space-between;
     padding: 0 10%;
     height: 3.5em;
+    position: sticky;
+    top: 0;
     box-shadow: 1px 1px 4px var(--color-dark4);
 }
 .navegacao-header{
@@ -67,6 +70,7 @@ body{
     color: #b040ff;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #inicio{
     background-image: url('../img/img-fundo.jpg');
@@ -97,6 +101,23 @@ body{
     float: right;
     position: absolute;
     bottom: 100px;
-    margin-left: 80%;
+    margin-left: 79%;
 }
 >>>>>>> fellipe
+=======
+.conteiner-geral img{
+    width: 1071px;  
+}
+.texto-img{
+    position: absolute;
+    bottom: 200px;
+    left: 1;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px
+}
+.texto-img span{
+    display: block;
+}
+>>>>>>> d2be03d2bdd6ab8e84b0dd2d68f363a4b18a6a63
