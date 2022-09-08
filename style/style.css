@@ -70,22 +70,45 @@ body{
     color: #b040ff;
 }
 .conteiner-geral img{
-    width: 1071px;  
+    width: 100%; 
 }
 .texto-img{
     position: absolute;
-    bottom: 200px;
-    left: 1;
-    text-align: center;
-    padding: 10px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 22px
+    bottom: 40px;
+    left: -20px;
+    width: 40%;
+
 }
+
 .texto-img span{
     display: block;
 }
 
+.nome-produto{
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background: #1c1c1c;
+}
+.carrossel{
 
+    box-shadow: 2px 2px 4px black;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
+#imgs{
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0);
+}
+
+#imgs img {
+   object-fit: cover;
+   height: 100%;
+   width: 100%;
+}
 
 
 
