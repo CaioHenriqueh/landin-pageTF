@@ -69,9 +69,6 @@ body{
 .logo_header:hover{
     color: #b040ff;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 #inicio{
     background-image: url('../img/img-fundo.jpg');
     width: 100%;
@@ -103,8 +100,7 @@ body{
     bottom: 100px;
     margin-left: 79%;
 }
->>>>>>> fellipe
-=======
+
 .conteiner-geral img{
     width: 1071px;  
 }
@@ -120,4 +116,3 @@ body{
 .texto-img span{
     display: block;
 }
->>>>>>> d2be03d2bdd6ab8e84b0dd2d68f363a4b18a6a63
