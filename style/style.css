@@ -66,3 +66,37 @@ body{
 .logo_header:hover{
     color: #b040ff;
 }
+<<<<<<< HEAD
+=======
+#inicio{
+    background-image: url('../img/img-fundo.jpg');
+    width: 100%;
+    height: 100%;
+}
+
+.parte-um {
+    text-align: center;
+    margin: 10px;
+}
+
+.parte-dois {
+    position: relative;
+    width: 100%;
+}
+
+.endereco {
+    margin: 30px;
+}
+
+.endereco li {
+    list-style-type: none;
+}
+
+#redes {
+    display: flex;
+    float: right;
+    position: absolute;
+    bottom: 100px;
+    margin-left: 80%;
+}
+>>>>>>> fellipe
