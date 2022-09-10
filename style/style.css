@@ -74,19 +74,15 @@ body{
 }
 .texto-img{
     position: absolute;
-<<<<<<< HEAD
     bottom: 40px;
     left: -20px;
     width: 40%;
-
-=======
     bottom: 200px;
     left: 1;
     text-align: center;
     padding: 10px;
     font-family: 'Roboto', sans-serif;
     font-size: 22px;
->>>>>>> errospj
 }
 
 .texto-img span{
