@@ -42,14 +42,13 @@ body{
 }
 .navegacao-header{
     gap: 3em;
-    z-index: 2;
 }
 .navegacao-header a{
     text-decoration: none;
     color: var(--color-purple);
     transition: 1s;
     font-weight: bold;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
 }
 .navegacao-header a:hover{
     color: var(--color-white);
@@ -106,21 +105,36 @@ body{
     margin-top: -35%;
     margin-left: 9%;
 }
+.agrupar{
+    display: flex;
+}
 .informacoes{
     float: left;
-    display: flex;
-    margin-left: 90%;
-    margin-top: -10%;
+    display: block;
+    margin-left: 74%;
+    margin-top: -30%;
+  
+}
+.informacoes img {
+    display: block;
+    max-width: 45px;
+    max-height: 45px;
+    margin: 10px;
+}   
+.indentificador{
+    float: left;
+    margin-left: 40%;
+    margin-top: -140%;
 }
 @media(max-width:767px){
     .virtus img{
-        width: 70%;
+        width: 9%;
         margin-top: -70px;
     }
 }
 @media(max-width:574px){
     .virtus img{
-        width: 10%;
+        width: 9%;
     }
 }
 @media(max-width:767px){
@@ -134,78 +148,6 @@ body{
         width: 49%;
     }
 }
-.container{
-	max-width: 1170px;
-	margin:auto;
-}
-.row{
-	display: flex;
-	flex-wrap: wrap;
-}
-ul{
-	list-style: none;
-}
-.footer{
-	background-color: var(--color-dark1);
-    padding: 70px 0;
-}
-.footer-col{
-   width: 25%;
-   padding: 0 15px;
-}
-.footer-col h4{
-	font-size: 18px;
-	color: #ffffff;
-	text-transform: capitalize;
-	margin-bottom: 35px;
-	font-weight: 500;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-	position: relative;
-}
-.footer-col h4::before{
-	content: '';
-	position: absolute;
-	left:0;
-	bottom: -10px;
-	background-color: rgb(55, 195, 55);
-	height: 2px;
-	box-sizing: border-box;
-	width: 50px;
-}
-.footer-col ul li:not(:last-child){
-	margin-bottom: 10px;
-}
-.footer-col ul li a{
-	font-size: 16px;
-	text-transform: capitalize;
-	color: #ffffff;
-    transition: 1s;
-	text-decoration: none;
-	font-weight: 300;
-	color: var(--color-white);
-	display: block;
-	transition: all 0.3s ease;
-}
-.footer-col ul li a:hover{
-	color:var(--color-purple);
-}
-.footer-col .social-links a{
-	display: inline-block;
-	height: 40px;
-	width: 40px;
-	background-color: rgba(255,255,255,0.2);
-	margin:0 10px 10px 0;
-	text-align: center;
-	line-height: 40px;
-	border-radius: 50%;
-	color: #ffffff;
-	transition: all 0.5s ease;
-}
-.footer-col .social-links a:hover{
-	color: #1642b0;
-	background-color: #ffffff;
-}
-/*responsive*/
 @media(max-width: 767px){
   .footer-col{
     width: 50%;

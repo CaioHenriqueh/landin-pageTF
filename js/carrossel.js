@@ -13,3 +13,5 @@ function carrossel(){
     imgs.style.transform = `translateX(${-idx * 96}%)`;
 }
 setInterval(carrossel, 2000);
+
+
