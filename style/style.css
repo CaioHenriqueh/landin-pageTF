@@ -182,7 +182,158 @@ body{
 #timerup h2{
     margin-left: 10%;
 }
+.parte-um {
+    text-align: center;
+    width: 110px;
+    margin: 2px;
+    margin-left: 47.5%;
+}
 
+.parte-um h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 23px;
+    transition: 1s;
+}
+
+#enterprise {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: 1s;
+}
+
+.parte-um:hover{
+    color: #b040ff;
+}
+
+.parte-dois {
+    position: relative;
+    width: 100%;
+    margin: 50px 0 110px 0;
+}
+
+#endereco {
+    margin: 30px 0 0 200px;
+    color: #b040ff;
+
+}
+
+.endereco {
+    margin: 10px 0 10px 180px;
+}
+
+.endereco li {
+    list-style-type: none;
+}
+
+.redes {
+    display: flex;
+    float: right;
+    position: absolute;
+    bottom: 69px;
+    margin-left: 84%;
+    margin-top: 10px;
+    margin-right: 180px;
+}
+
+#redes {
+    color: #b040ff;
+}
+
+.redes img {
+    max-width: 10%;
+    display: flex;
+    margin-top: 10px;
+    margin-right: 50px;
+}
+
+#logo-linkedin {
+    max-width: 30%;
+    display: flex;
+    float: right;
+    position: absolute;
+    bottom: -50px;
+    margin-left: -28%;
+    cursor: pointer;
+}
+
+#logo-youtube {
+    max-width: 30%;
+    display: flex;
+    float: right;
+    position: absolute;
+    bottom: -46px;
+    margin-left: 22%;
+    cursor: pointer;
+}
+
+#logo-instagram {
+    max-width: 40%;
+    display: flex;
+    float: right;
+    position: absolute;
+    bottom: -54px;
+    margin-left: 70%;
+    cursor: pointer;
+}
+
+.redes h4 {
+    display: block;
+}
+
+.parte-tres {
+    position: relative;
+    width: 100%;
+    margin: 50px 0 110px 0;
+}
+
+#atendimento {
+    margin: 30px 0 0 200px;
+    color: #b040ff;
+}
+
+.atendimento {
+    margin: 10px 0 10px 180px;
+}
+
+.atendimento li {
+    list-style-type: none;
+}
+
+#site-seguro1 {
+    max-width: 20%;
+    display: flex;
+    float: right;
+    position: absolute;
+    bottom: 30px;
+    margin-left: 70%;
+    opacity: 50%;
+}
+
+#site-seguro2 {
+    max-width: 13%;
+    display: flex;
+    float: right;
+    position: absolute;
+    bottom: -110px;
+    margin-left: 74%;
+    opacity: 50%;
+}
+
+footer h4 {
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer li {
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#fim-rodape {
+    text-align: center;
+    font-size: 15px;
+    margin: 20px;
+}
 
 
 
