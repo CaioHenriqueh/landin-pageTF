@@ -159,6 +159,30 @@ body{
     width: 100%;
 }
 }
+#timerup{
+    text-align: center;
+    margin-top: 12% !important;
+    margin-left: 30%;
+    display: flex;
+}
+#timer{
+    margin-left:5%;
+    font-size: 65px;
+    color: #ff0000;
+}
+#timerup button{
+    width: 30%;
+    letter-spacing: 1px;
+    height: 40px;
+    font: 20px arial;
+    color: var(--color-white);
+    background: var(--color-purple);
+    border-radius: 20px;
+}
+#timerup h2{
+    margin-left: 10%;
+}
+
 
 
 

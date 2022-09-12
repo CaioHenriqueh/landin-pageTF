@@ -1,22 +1,28 @@
-function iniciotimer(duracao , display){
+function iniciotimer(duracao , tela){
 
-    var timer = duracao,minutos,segundos
+    var timer = duracao,minutos,segundos;
 
     setInterval(function(){
 
-        minutes = parseInt(timer / 60,10) 
+        minutos = parseInt(timer / 60,10) 
         segundos = parseInt(timer % 60,10)
 
-        minutes = minutos < 10 ? "0" + minutes : minutes;
-        segundos = segundos < 10 ? 0 + segundos : segundos
+        minutos = minutos < 10 ? "0" + minutos : minutos;
+        segundos = segundos < 10 ? '0' + segundos : segundos;
 
 
-        display.textContent = 
+       tela.textContent = minutos + ":" + segundos;
 
-    })
-    
-    
-
-
-
+        if(--timer < 0){
+            timer = duracao;
+        }
+    },1000)
 }
+    
+     window.onload = function(){
+         var duracao = 60 * 5
+        var tela = document.querySelector("#timer")
+
+    iniciotimer(duracao , tela)
+}
+
