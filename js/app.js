@@ -6,10 +6,10 @@ let idx = 0;
 function carrossel(){
     idx++
 
-    if(idx > img.length -1){
+    if(idx >= img.length ){
         idx = 0;
     }
 
-    imgs.style.transform = `translateX(${-idx * 500}px)`;
+    imgs.style.transform = `translateX(${-idx * 96}%)`;
 }
-setInterval(carrossel, 1800);
+setInterval(carrossel, 2000);
