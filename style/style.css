@@ -163,6 +163,10 @@ body{
 .trtr{
     color: #ff0000;
 }
+#timerup a{
+    text-decoration: none;
+    color: var(--color-white);
+}
 #timer{
     margin-left:5%;
     font-size: 65px;
