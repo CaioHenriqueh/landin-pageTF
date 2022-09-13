@@ -8,7 +8,7 @@ function iniciotimer(duracao , tela){
         segundos = parseInt(timer % 60,10)
 
         minutos = minutos < 10 ? "0" + minutos : minutos;
-        segundos = segundos < 10 ? '0' + segundos : segundos;
+        segundos = segundos < 10 ? "0" + segundos : segundos;
 
 
        tela.textContent = minutos + ":" + segundos;
@@ -16,11 +16,14 @@ function iniciotimer(duracao , tela){
         if(--timer < 0){
             timer = duracao;
         }
+        if(tela.textContent == "01:30"){
+            tela.classList.add("trtr")
+        }
     },1000)
 }
     
      window.onload = function(){
-         var duracao = 60 * 5
+        var duracao = 60 * 5
         var tela = document.querySelector("#timer")
 
     iniciotimer(duracao , tela)
